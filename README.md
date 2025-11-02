@@ -1,31 +1,48 @@
-# Appscrip-task-Tharunreddy — Product Listing Page (PLP)
+🚀 Live Demo
 
-## Overview
-Responsive PLP built with React. Demonstrates:
-- Responsive UI (desktop, tablet, mobile)
-- SEO basics (title, meta, schema)
-- Minimal dependencies
-- Optional mock data via Fake Store API
+👉 Live Demo Link Here
 
-## Setup
-1. `git clone https://github.com/<you>/Appscrip-task-YourName.git`
-2. `cd Appscrip-task-YourName`
-3. `npm install`
-4. `npm start` — runs dev server
+🧩 Features
+🏷️ Product Listing
 
-## Build & Deploy
-- `npm run build` then deploy `build/` to Netlify or other static host.
+Displays products dynamically fetched from an API or JSON file.
 
-## Project Structure
-- `src/components/` — Header, Filters, ProductGrid, ProductCard, Footer
-- `public/index.html` — SEO meta + JSON-LD
+Includes sorting and filtering capabilities.
 
-## Notes
-- Uses `axios` to fetch `https://fakestoreapi.com/products`. If API fails, app uses sample fallback data.
-- Images should include descriptive filenames and `alt` text.
+🧰 Filters Sidebar
 
-## Evaluation Checklist
-- ✅ Semantic tags (header, main, footer)
-- ✅ SEO tags and JSON-LD
-- ✅ Responsive grid with CSS grid & media queries
-- ✅ Minimal libraries
+Filters include Customizable, Ideal For, Occasion, Work, Fabric, Segment, Suitable For, Raw Materials, and Pattern.
+
+Collapsible filter sections for a clean UI.
+
+🧭 Responsive Footer
+
+Newsletter subscription section.
+
+Contact info and currency selection.
+
+Footer links categorized as:
+
+mettà muse
+
+Quick Links
+
+Follow Us
+
+Includes social and payment icons.
+
+Collapsible dropdown menus in mobile view.
+
+📱 Responsive Design
+
+Fully optimized for both desktop and mobile.
+
+Uses CSS Flexbox and media queries for adaptive layouts.
+
+🛠️ Technologies Used
+Category	Tools
+Frontend	React.js, JavaScript (ES6+), HTML5, CSS3
+Icons	React Icons (react-icons/fa, react-icons/fa6)
+Styling	Custom CSS (no frameworks used)
+Version Control	Git & GitHub
+Package Manager	npm
