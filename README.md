@@ -1,6 +1,6 @@
 🚀 Live Demo
 
-👉 Live Demo Link Here
+👉 Link: https://appscrip-task-tharunreddy.netlify.app/
 
 🧩 Features
 🏷️ Product Listing
