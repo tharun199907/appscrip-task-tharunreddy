@@ -12,7 +12,7 @@ const ProductCard = ({ product }) => {
   return (
     <article className="product-card">
       <div className="media">
-        <img src={imgSrc} alt={`Image of ${title}`} loading="lazy" />
+          <img src={imgSrc} alt={title} loading="lazy" />
       </div>
       <div className="meta">
         <h2 itemProp="name">{title}</h2>
