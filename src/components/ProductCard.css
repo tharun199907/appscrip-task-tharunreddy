@@ -1,0 +1,32 @@
+/* Product card */
+.product-card { border: 1px solid #f0f0f0; border-radius: 6px; overflow: hidden; background:#fff; display:flex; flex-direction:column; max-width: 220px;}
+.product-card .media { padding: 12px; display:flex; align-items:center; justify-content:center; min-height:140px; }
+.product-card img { max-width:100%; max-height:180px; object-fit:contain; }
+.product-card .meta { padding: 12px; display:flex; flex-direction:column; gap:8px; }
+.product-card h2 { font-size: 14px; margin:0; height:36px; overflow:hidden; }
+.product-card .price { font-weight:700; color:#111; }
+.btn { border: none; padding: 8px 12px; background:#111; color:#fff; border-radius:4px; cursor:pointer; }
+
+
+.heart-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.red-heart-icon{
+    color: red;
+}
+
+.sign-in-text{
+    border-bottom: 1px solid black;
+}
+
+.sign-in-container{
+    display: flex;
+    align-items: center;
+}
+
+.sign-in-para{
+    font-size: 14px;
+    color: #888792;}
